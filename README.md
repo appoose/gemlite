@@ -1,6 +1,6 @@
 # GemLite
 
-<img src="gemlite_logo.png" alt="GemLite Logo" width="200">
+<img src="images/gemlite_banner.png" alt="GemLite Logo" width="200">
 **[GemLite](https://github.com/mobiusml/gemlite/)** is a collection of straightforward CUDA and Triton kernels for efficient, fused low-bit matrix multiplication. It is specifically designed for **simplicity** and **reusability**. This project began as a way to address the challenges we faced in customizing existing low-bit kernels.
 
 GemLite provides both **flexibility** and **performance**, enabling users to easily modify the codebase to develop high-performance kernels tailored to their specific needs. The project started with CUDA kernels, but we've added Triton kernels to enhance flexibility. Major recent improvements are in the [Triton branch](https://github.com/appoose/gemlite/tree/master/gemlite/triton_kernels). Our goal is to support various combinations of bitrates for weights and activations. Different GPU architectures (e.g., RTX 4090, A100, H100) have their own optimal configurations, so we provide a range of kernels and auto-tuning features to select the best for each setup.
