@@ -4,8 +4,8 @@
   [![Twitter][mobius-twitter-badge]][mobius-twitter]
 
   *Low-bit Triton Kernels for Efficient Matrix Multiplication*  
-  Made with ❤ by the team at [Mobius Labs](https://www.mobiuslabs.com/).  
-  Our models and inference stack is named 'Aana' (ആന), which means 'Elephant' in Malayalam.
+  Made with ❤ by the team at [Mobius Labs](https://www.mobiuslabs.com/) for  'Aana' (ആന : Elephant) suite of multimodal product.  
+  
 </div>
 
 **GemLite** is a collection of straightforward CUDA and Triton kernels for efficient, fused low-bit matrix multiplication. It is specifically designed for **simplicity** and **reusability**. This project began as a way to address the challenges we faced in customizing existing low-bit kernels.
