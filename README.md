@@ -1,9 +1,11 @@
+# GemLite
+*Low-bit Triton Kernels for Efficient Matrix Multiplication*  
+
 <div align="center" style="margin-bottom: 1em;">
   <img src="images/gemlite%20banner.png" alt="GemLite Logo" height="240">
   
   [![Twitter][mobius-twitter-badge]][mobius-twitter]
 
-  *Low-bit Triton Kernels for Efficient Matrix Multiplication*  
   Made with ❤ by the team at [Mobius Labs](https://www.mobiuslabs.com/) for  'Aana' (ആന : Elephant) suite of multimodal product.  
   
 </div>
