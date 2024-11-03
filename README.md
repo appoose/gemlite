@@ -1,5 +1,5 @@
 <div align="center" style="margin-bottom: 1em;">
-  <img src="images/gemlite%20banner.png" alt="GemLite Logo" height="320">
+  <img src="images/gemlite%20banner.png" alt="GemLite Logo" height="240">
   
   [![Twitter][mobius-twitter-badge]][mobius-twitter]
 
