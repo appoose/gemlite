@@ -1,14 +1,14 @@
 <div align="center" style="margin-bottom: 1em;">
-<img src="images/gemlite%20banner.png" alt="GemLite Logo" height="360"></img>
-[![Twitter][mobius-twitter-badge]][mobius-twitter]
+  <img src="images/gemlite%20banner.png" alt="GemLite Logo" height="320">
+  
+  [![Twitter][mobius-twitter-badge]][mobius-twitter]
 
-*Low-bit Triton Kernels for Efficient Matrix Multiplication*
-Made with ❤ by the team at [Mobius Labs](https://www.mobiuslabs.com/).
-Our models and inference stack is named 'Aana' (ആന), which means 'Elephant' in Malayalam.
-
+  *Low-bit Triton Kernels for Efficient Matrix Multiplication*  
+  Made with ❤ by the team at [Mobius Labs](https://www.mobiuslabs.com/).  
+  Our models and inference stack is named 'Aana' (ആന), which means 'Elephant' in Malayalam.
 </div>
 
-GemLite is a collection of straightforward CUDA and Triton kernels for efficient, fused low-bit matrix multiplication. It is specifically designed for **simplicity** and **reusability**. This project began as a way to address the challenges we faced in customizing existing low-bit kernels.
+**GemLite** is a collection of straightforward CUDA and Triton kernels for efficient, fused low-bit matrix multiplication. It is specifically designed for **simplicity** and **reusability**. This project began as a way to address the challenges we faced in customizing existing low-bit kernels.
 
 GemLite provides both **flexibility** and **performance**, enabling users to easily modify the codebase to develop high-performance kernels tailored to their specific needs. The project started with CUDA kernels, but we've added Triton kernels to enhance flexibility. Major recent improvements are in the [Triton branch](https://github.com/appoose/gemlite/tree/master/gemlite/triton_kernels). Our goal is to support various combinations of bitrates for weights and activations. Different GPU architectures (e.g., RTX 4090, A100, H100) have their own optimal configurations, so we provide a range of kernels and auto-tuning features to select the best for each setup.
 
