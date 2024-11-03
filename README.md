@@ -135,5 +135,6 @@ Feel free to explore the code, contribute, or provide feedback. We're constantly
 
 
 [mobius-twitter-badge]: https://img.shields.io/twitter/follow/Mobius_Labs?style=social
+[mobius-twitter]: https://twitter.com/Mobius_Labs
 
 
